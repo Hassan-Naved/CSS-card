@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://wallpapers.com/images/hd/grey-texture-background-cupxi624ho40xpjn.jpg);
+    margin: 0;
+    padding: 20px;
+}
+
+.card-container { 
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-image {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-time {
+    color: #ff4c68;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(https://t4.ftcdn.net/jpg/05/71/83/47/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg);
+    padding: 10px 15px;
+    border-top: 1px solid #303030;
+    color: white;
+    font-weight: bold;
+}
+
+.card-footer .footer-item {
+    text-align: center;
+}
+
+.footer-item span {
+    display: block;
+    font-size: 12px;
+    color: #888;
+}
+
